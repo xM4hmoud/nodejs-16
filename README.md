@@ -34,7 +34,7 @@ npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_mod
 ```
 run = "npm start"
 ```
-#### 4. في ملف الpackage.json حط ذا الكود
+#### 4. في ملف ال package.json حط ذا الكود
 ```json
 "scripts": {
     "start": "node ."
@@ -44,3 +44,11 @@ run = "npm start"
 ```
 npm uninstall pkg-name && npm i pkg-name
 ```
+
+# Example
+
+## An example project for the method.
+### [Click Me](https://replit.com/@xM4hmoud/Nodejs-16)
+
+## مثال لـ الطريقة.
+### [Click Me](https://replit.com/@xM4hmoud/Nodejs-16)
