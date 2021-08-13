@@ -1,10 +1,11 @@
 {
   "name": "nodejs-16",
   "version": "1.0.0",
-  "description": "",
+  "description": "A way to use nodejs 16 on replit.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+    "example": "concurrently --kill-others \"npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH\" \"node index.js\""
   },
   "keywords": [],
   "author": "",
